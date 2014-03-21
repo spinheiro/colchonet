@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails colchonet: development" uuid="5633c24f-4f20-44c5-a9b4-1693eed6d186">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails colchonet: test" uuid="0b02c785-9b9f-4d30-a669-588b844f640f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails colchonet: production" uuid="eeeb3502-ad9d-42ae-9cb4-2c9244f17539">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

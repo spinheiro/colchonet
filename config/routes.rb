@@ -1,8 +1,15 @@
 Colchonet::Application.routes.draw do
-  resources :rooms
-  resources :users
 
-  root :to=> "home#index"
+  LOCALES = /en|pt\-BR/
+
+  scope "(:locale)", :locale => LOCALES do
+    resources :rooms
+    resources :users
+
+    resource :confirmation, :only=>[:show]
+  end
+
+  root :to => "home#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
